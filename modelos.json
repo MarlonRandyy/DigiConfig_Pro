@@ -1,0 +1,74 @@
+{
+    "BT-191XR": {
+        "nombre_display": "BT-PON BT-191XR",
+        "fabricante": "BT-PON",
+        "imagen": "configs/imagenes/bt191xr.png",
+        "firmware_xml": "configs/firmwares/bt191xr.xml",
+        "ip_fabrica": "192.168.1.1",
+        "ip_configurada": "192.168.100.1",
+        "usuario_fabrica": "admin",
+        "clave_fabrica": "admin",
+        "usuario_final": "admin",
+        "clave_final": "digicable19",
+        "mac_prefijos": [
+            "60:D2:DD",
+            "60D2DD"
+        ],
+        "ruta_upload": "/boaform/admin/formSaveConfig",
+        "ruta_reset": "/boaform/admin/formRestoreConfig",
+        "notas": "XPON — funciona en GPON y EPON"
+    },
+    "VSOL-V2802": {
+        "nombre_display": "VSOL V2802",
+        "fabricante": "VSOL",
+        "imagen": "configs/imagenes/vsol.png",
+        "firmware_xml": "configs/firmwares/vsol.xml",
+        "ip_fabrica": "192.168.1.1",
+        "ip_configurada": "192.168.100.1",
+        "usuario_fabrica": "admin",
+        "clave_fabrica": "admin",
+        "usuario_final": "admin",
+        "clave_final": "digicable19",
+        "mac_prefijos": [
+            "84:AF:EC",
+            "84AFEC"
+        ],
+        "ruta_upload": "/cgi-bin/uploadfile",
+        "ruta_reset": "/cgi-bin/reset",
+        "notas": "Verificar VLAN 116 al subir config"
+    },
+    "HUAWEI-HG8546M": {
+        "nombre_display": "Huawei HG8546M",
+        "fabricante": "Huawei",
+        "imagen": "configs/imagenes/huawei.png",
+        "firmware_xml": "configs/firmwares/huawei.xml",
+        "ip_fabrica": "192.168.100.1",
+        "ip_configurada": "192.168.100.1",
+        "usuario_fabrica": "admin",
+        "clave_fabrica": "admin",
+        "usuario_final": "admin",
+        "clave_final": "digicable19",
+        "mac_prefijos": [
+            "F4:8C:50",
+            "F48C50",
+            "48:57:02",
+            "485702"
+        ],
+        "ruta_upload": "/html/ssw/en/config/config_save.asp",
+        "ruta_reset": "/html/ssw/en/config/config_restore.asp",
+        "notas": "Dual band 2.4/5GHz"
+    },
+    "FH-HG6143D": {
+        "nombre_display": "FiberHome HG6143D",
+        "fabricante": "FiberHome",
+        "ip_fabrica": "192.168.1.1",
+        "ip_configurada": "192.168.100.1",
+        "usuario_fabrica": "admin",
+        "clave_fabrica": "admin",
+        "usuario_final": "admin",
+        "clave_final": "digicable19",
+        "notas": "",
+        "imagen": "configs/imagenes/fh-hg6143d.png",
+        "firmware_xml": "configs/firmwares/fh-hg6143d.xml"
+    }
+}

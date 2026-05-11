@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+    <Device>
+        <Vendor>Digicable_Standard</Vendor>
+        <Model>Universal_Config_v2</Model>
+    </Device>
+    <WAN_Configuration>
+        <Mode>Route</Mode>
+        <VLAN>100</VLAN>
+        <AdminPassword>digicable19</AdminPassword>
+        <WiFi_SSID>Digicable_Fibra_WiFi</WiFi_SSID>
+    </WAN_Configuration>
+</Root>

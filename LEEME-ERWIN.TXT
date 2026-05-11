@@ -1,0 +1,104 @@
+1*
+
+Abre la terminal en la carpeta del proyecto y ejecuta:
+```bash
+
+pip install -r requirements.txt
+
+
+INSTAQLA LAS LIBRERIAS PARA QUE FUNCIONE
+
+
+2*
+
+VE AL ARCHIVO MAIN Y DALE A RUN PARA CORER EL PROGRAMA
+
+*3
+
+CONECTAR ON SHEET PARA PRUEBA
+
+CREA UN ARCHIVO EN GOOGLE SHEET (PARA PRUEBA)
+Crea una hoja nueva y ponle el nombre V1( O LO QUE sea)
+
+
+
+1- Crear la "Identidad Digital" (En Google Cloud Console)
+Este paso crea el archivo JSON que permite al programa "hablar" con Google.
+
+Entra a Google Cloud Console.
+
+Nuevo Proyecto: Haz clic en el selector de proyectos (arriba a la izquierda) y dale a "New Project". Ponle de nombre DigiConfig-Escaneo.
+
+Activar las APIs: * En el buscador de arriba escribe "Google Sheets API" y dale al botón azul Enable (Habilitar).
+
+Haz lo mismo buscando "Google Drive API" y dale a Enable. (Sin Drive API, a veces falla la búsqueda del archivo).
+
+Crear Credenciales:
+
+Ve al menú lateral: APIs & Services > Credentials.
+
+Clic en + CREATE CREDENTIALS > Service Account.
+
+Ponle nombre (ej: escanner-bot), dale a Create and Continue y luego a Done.
+
+
+
+2- Descargar la "Llave" (Archivo JSON)
+Ahora obtenemos el archivo físico que irá dentro de la carpeta del proyecto.
+
+En la misma pantalla de "Credentials", verás tu nueva cuenta de servicio abajo. Haz clic en el icono del lápiz (Editar).
+
+Ve a la pestaña de arriba que dice KEYS.
+
+Clic en ADD KEY > Create new key.
+
+Selecciona JSON y dale a Create.
+
+¡IMPORTANTE!: Se descargará un archivo .json a tu PC. Cópialo y pégalo dentro de la carpeta de tu proyecto DigiConfig_Pro.
+
+
+
+
+3- El Paso "Maestro" (Compartir el acceso)
+Este es el paso donde la mayoría falla. El archivo JSON tiene un correo electrónico que Google le asignó.
+
+--1
+ Abre el archivo .json que acabas de descargar con el Bloc de Notas.
+--2 
+Busca la línea que dice "client_email". Verás un correo largo como: escanner-bot@digiconfig-xxxx.iam.gserviceaccount.com. Cópialo.
+--3
+Ve a tu Google Sheet V1 (el que creaste en el Paso 1).
+--4
+Clic en el botón azul Compartir.
+--5
+Pega el correo del JSON, asegúrate de que esté en modo Editor y dale a Enviar.
+
+//
+Esto le da permiso al programa para escribir en ese Excel específico.
+
+
+
+
+4- Vincular el ID en el Programa
+
+Mira la URL de tu navegador mientras tienes abierto el Sheet V1.
+
+Copia el ID del Spreadsheet. Es el código entre /d/ y /edit.
+
+Ejemplo: docs.google.com/spreadsheets/d/ 1zA2bB3cC4dD5eE /edit
+
+Abre tu programa main.py.
+
+Ve a Configuración e introduce ese ID y selecciona el archivo JSON que guardaste en la carpeta.
+
+
+
+
+5- La Prueba de Fuego
+Ve a la pantalla de Escaneo de DigiConfig Pro.
+
+Escribe en el campo Membrete: PRUEBA_INICIAL.
+
+Inicia la cámara y escanea cualquier código.
+
+Verificación: Si el programa dice "Sincronizado" y el dato aparece en el navegador en el Sheet V1, ¡has configurado el sistema correctamente!

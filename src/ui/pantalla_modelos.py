@@ -276,13 +276,13 @@ class PantallaModelos(ctk.CTkFrame):
 
         v = ctk.CTkToplevel(self)
         v.title("Agregar nuevo modelo" if modo == "nuevo" else f"Editar modelo — {modelo_id}")
-        v.geometry("660x880")  # Un poco más alto para los nuevos campos
+        v.geometry("660x700")  # Un poco más alto para los nuevos campos
         v.configure(fg_color=T().surface)
-        v.resizable(False, False)
+        v.resizable(True, True) 
         v.grab_set()
 
         scroll = ctk.CTkScrollableFrame(v, fg_color="transparent")
-        scroll.pack(fill="both", expand=True, padx=16, pady=10)
+        scroll.pack(fill="both", expand=True, padx=12, pady=6)  # pady reducido
 
         entradas = {}
         self.entradas = entradas

@@ -1,128 +1,64 @@
 # ============================================================
-# tema.py — Paleta Digicable · Modo Oscuro + Claro
+# tema.py — Paleta Corporativa "Light Mode" Invertida
 # ============================================================
 
-class TemaOscuro:
-    # Fondos
-    bg           = "#0a0d14"
-    surface      = "#111827"
-    surface2     = "#1c2537"
-    sidebar      = "#060911"
-    topbar       = "#111827"
+class Tema:
+    # ─── Fondos (Invertidos: De oscuro a claro) ────────────────
+    bg          = "#F8FAFC"      # Blanco muy suave (Fondo general)
+    surface     = "#FFFFFF"      # Blanco puro (Cards/Paneles)
+    surface2    = "#E2E8F0"      # Gris claro (Separadores/Bordes)
+    sidebar     = "#002B7F"      # Azul corporativo profundo (Mantiene la identidad)
+    topbar      = "#FFFFFF"      # Blanco para contraste superior
 
-    # Acento principal (naranja en oscuro)
-    accent       = "#F57C00"
-    accent_hover = "#FF9800"
-    accent_soft  = "#2a1800"
+    # ─── Bordes ──────────────────────────────────────────────────
+    borde       = "#CBD5E1"      # Gris claro para bordes principales
+    borde2      = "#E2E8F0"      # Gris más claro para bordes secundarios
 
-    # Acento secundario (azul en oscuro)
-    accent2      = "#1E88E5"
-    accent2_hover= "#42A5F5"
+    # ─── Acentos (Azul vibrante sobre fondo claro) ─────────────
+    accent      = "#0062FF"      # Azul Digicable (Botones, estados)
+    accent_hover= "#0047BA"      # Acción hover (más oscuro)
+    accent_soft = "#E0EFFF"      # Fondo suave para elementos seleccionados
 
-    # Semáforo
-    verde        = "#16a34a"
-    verde_soft   = "#052010"
-    rojo         = "#dc2626"
-    rojo_soft    = "#200505"
-    amarillo     = "#d97706"
+    # Secundario (Azul marino oscuro para textos importantes)
+    accent2     = "#1E293B"      # Azul oscuro institucional
+    accent2_hover = "#0F172A"
 
-    # Texto
-    texto        = "#f1f5f9"
-    texto_muted  = "#8da0b5"
-    texto_dim    = "#4a5568"
+    # ─── Semáforo (Ajustado para legibilidad en fondo claro) ───
+    verde       = "#16A34A"      # Éxito sólido
+    verde_soft  = "#DCFCE7"      # Fondo éxito
+    rojo        = "#DC2626"      # Error sólido
+    rojo_soft   = "#FEE2E2"      # Fondo error
+    amarillo    = "#D97706"      # Alerta (naranja oscuro para que se lea bien)
 
-    # Bordes
-    borde        = "#1e2d45"
-    borde2       = "#2a3d55"
+    # ─── Textos (Invertidos: De blanco a azul marino) ─────────
+    texto       = "#1E293B"      # Azul marino profundo (Legible en fondo blanco)
+    texto_muted = "#475569"      # Gris profesional (Texto secundario)
+    texto_dim   = "#94A3B8"      # Gris tenue (Etiquetas/Placeholders)
 
-    # Nav activo
-    nav_active_bg    = "#F57C00"
-    nav_active_text  = "#ffffff"
-    nav_hover_bg     = "#1a2233"
+    # ─── Navegación activa (Específico para Sidebar) ──────────
+    nav_active_bg   = "#FDA219"  # Botón activo blanco sobre sidebar azul
+    nav_active_text = "#002B7F"  # Texto azul sobre botón activo blanco
+    nav_hover_bg    = "#0035A0"  # Hover más claro sobre sidebar azul
+    
+    # ─── Logo ─────────────────────────────────────────────────
+    # Asegúrate de usar la versión blanca del logo en el sidebar
+    logo_path   = "assets/digicable_blanco.png"
 
-    # Logo a usar
-    logo_path    = "assets/digicable_naranja.png"
+    # ─── Fuentes ──────────────────────────────────────────────
+    font_title  = ("Segoe UI", 16, "bold")
+    font_sub    = ("Segoe UI", 13, "bold")
+    font_normal = ("Segoe UI", 12)
+    font_sm     = ("Segoe UI", 10)
+    font_xs     = ("Segoe UI", 9)
+    font_mono   = ("Consolas", 11)
+    font_big    = ("Segoe UI", 22, "bold")
 
-    # Fuentes
-    font_title   = ("Segoe UI", 16, "bold")
-    font_sub     = ("Segoe UI", 13, "bold")
-    font_normal  = ("Segoe UI", 12)
-    font_sm      = ("Segoe UI", 10)
-    font_xs      = ("Segoe UI", 9)
-    font_mono    = ("Consolas", 11)
-    font_big     = ("Segoe UI", 22, "bold")
+    # ─── Radios ───────────────────────────────────────────────
+    r_card      = 12
+    r_btn       = 8
+    r_chip      = 6
+    r_pill      = 100
 
-    # Radios
-    r_card  = 16
-    r_btn   = 12
-    r_chip  = 8
-    r_pill  = 100
-
-    # LED
-    led_on  = "#22c55e"
-    led_off = "#4a5568"
-
-
-class TemaClaro:
-    # Fondos
-    bg           = "#f0f4f8"
-    surface      = "#ffffff"
-    surface2     = "#f7f9fc"
-    sidebar      = "#1a2540"
-    topbar       = "#ffffff"
-
-    # Acento principal (azul en claro)
-    accent       = "#1565C0"
-    accent_hover = "#1E88E5"
-    accent_soft  = "#e3eeff"
-
-    # Acento secundario (naranja en claro)
-    accent2      = "#F57C00"
-    accent2_hover= "#FF9800"
-
-    # Semáforo
-    verde        = "#16a34a"
-    verde_soft   = "#dcfce7"
-    rojo         = "#dc2626"
-    rojo_soft    = "#fee2e2"
-    amarillo     = "#d97706"
-
-    # Texto
-    texto        = "#0d1b2a"
-    texto_muted  = "#5a6a7e"
-    texto_dim    = "#94a3b8"
-
-    # Bordes
-    borde        = "#dde3ec"
-    borde2       = "#c8d0dc"
-
-    # Nav activo
-    nav_active_bg    = "#1565C0"
-    nav_active_text  = "#ffffff"
-    nav_hover_bg     = "rgba(255,255,255,0.08)"
-
-    # Logo a usar
-    logo_path    = "assets/digicable_azul.png"
-
-    # Fuentes (idéntico al oscuro)
-    font_title   = ("Segoe UI", 16, "bold")
-    font_sub     = ("Segoe UI", 13, "bold")
-    font_normal  = ("Segoe UI", 12)
-    font_sm      = ("Segoe UI", 10)
-    font_xs      = ("Segoe UI", 9)
-    font_mono    = ("Consolas", 11)
-    font_big     = ("Segoe UI", 22, "bold")
-
-    # Radios
-    r_card  = 16
-    r_btn   = 12
-    r_chip  = 8
-    r_pill  = 100
-
-    # LED
-    led_on  = "#16a34a"
-    led_off = "#94a3b8"
-
-
-# Tema activo por defecto
-Tema = TemaOscuro
+    # ─── LED (Colores de estado) ──────────────────────────────
+    led_on      = "#16A34A"      # Verde legible
+    led_off     = "#CBD5E1"      # Gris claro (se percibe apagado)

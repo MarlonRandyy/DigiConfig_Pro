@@ -1,0 +1,624 @@
+<Config Name="ROOT">
+ <Dir Name="MIB_TABLE">
+  <Value Name="WAN_MODE" Value="7"/>
+  <Value Name="LAN_IP_ADDR" Value="192.168.100.1"/>
+  <Value Name="LAN_SUBNET" Value="255.255.255.0"/>
+  <Value Name="LAN_ENABLE_IP2" Value="0"/>
+  <Value Name="LAN_IP_ADDR2" Value="192.168.100.1"/>
+  <Value Name="LAN_SUBNET2" Value="255.255.255.0"/>
+  <Value Name="LAN_DHCP" Value="0"/>
+  <Value Name="LAN_DHCP_POOLUSE" Value="0"/>
+  <Value Name="LAN_DHCP_START" Value="2"/>
+  <Value Name="LAN_DHCP_END" Value="100"/>
+  <Value Name="LAN_DHCP_POOL_START" Value="192.168.100.101"/>
+  <Value Name="LAN_DHCP_POOL_END" Value="192.168.100.254"/>
+  <Value Name="LAN_DHCP_DNS_OPT" Value="1"/>
+  <Value Name="DHCPS_DNS1" Value="8.8.8.8"/>
+  <Value Name="DHCPS_DNS2" Value="8.8.4.4"/>
+  <Value Name="DHCPS_DNS3" Value="1.1.1.1"/>
+  <Value Name="LAN_DHCP_LEASE" Value="86400"/>
+  <Value Name="LAN_DHCP_DOMAIN" Value="domain.name"/>
+  <Value Name="LAN_RIP" Value="0"/>
+  <Value Name="LAN_AUTOSEARCH" Value="0"/>
+  <Value Name="DNS_MODE" Value="0"/>
+  <Value Name="DNS1" Value="0.0.0.0"/>
+  <Value Name="DNS2" Value="0.0.0.0"/>
+  <Value Name="DNS3" Value="0.0.0.0"/>
+  <Value Name="DHCPS" Value="172.19.31.4"/>
+  <Value Name="DHCP_MODE" Value="2"/>
+  <Value Name="ADSL_MODE" Value="83"/>
+  <Value Name="ADSL_OLR" Value="3"/>
+  <Value Name="RIP_ENABLE" Value="0"/>
+  <Value Name="RIP_VERSION" Value="1"/>
+  <Value Name="IPF_OUT_ACTION" Value="1"/>
+  <Value Name="IPF_IN_ACTION" Value="0"/>
+  <Value Name="MACF_OUT_ACTION" Value="1"/>
+  <Value Name="MACF_IN_ACTION" Value="1"/>
+  <Value Name="PORT_FW_ENABLE" Value="0"/>
+  <Value Name="DMZ_ENABLE" Value="0"/>
+  <Value Name="DMZ_IP" Value="0.0.0.0"/>
+  <Value Name="USER_NAME" Value="useradmin"/>
+  <Value Name="USER_PASSWORD" Value="123456"/>
+  <Value Name="DEVICE_TYPE" Value="1"/>
+  <Value Name="INIT_LINE" Value="1"/>
+  <Value Name="INIT_SCRIPT" Value="1"/>
+  <Value Name="SNMP_SYS_DESCR" Value="System Description"/>
+  <Value Name="SNMP_SYS_NAME" Value="Modem/Router"/>
+  <Value Name="VC_AUTOSEARCH" Value="0"/>
+  <Value Name="BR_AGEING_TIME" Value="7200"/>
+  <Value Name="BR_STP_ENABLED" Value="0"/>
+  <Value Name="MP_MODE" Value="4"/>
+  <Value Name="IGMP_PROXY" Value="0"/>
+  <Value Name="IGMP_PROXY_ITF" Value="65535"/>
+  <Value Name="SPC_ENABLED" Value="0"/>
+  <Value Name="SPC_IPTYPE" Value="0"/>
+  <Value Name="ACL_CAPABILITY" Value="0"/>
+  <Value Name="MP_FIN" Value="1"/>
+  <Value Name="MULTI_LINGUAL_STATE" Value="en"/>
+  <Value Name="TFTP_SERVER_ADDR" Value="tftp://0.0.0.0"/>
+  <Value Name="POSIX_TZ_STRING" Value=""/>
+  <Value Name="BOOT_FILENAME" Value=""/>
+  <Value Name="NTP_ENABLED" Value="0"/>
+  <Value Name="NTP_TIMEZONE_DB_INDEX" Value="259"/>
+  <Value Name="DST_ENABLED" Value="1"/>
+  <Value Name="NTP_SERVER_ID" Value="0"/>
+  <Value Name="NTP_SERVER_HOST1" Value="203.117.180.36"/>
+  <Value Name="NTP_SERVER_HOST2" Value="220.130.158.52"/>
+  <Value Name="UPNP" Value="1"/>
+  <Value Name="UPNP_EXT_ITF" Value="130816"/>
+  <Value Name="SYSLOG_LOG_LEVEL" Value="0"/>
+  <Value Name="SYSLOG_DISPLAY_LEVEL" Value="0"/>
+  <Value Name="SUSER_NAME" Value="admin"/>
+  <Value Name="SUSER_PASSWORD" Value="digicable19"/>
+  <Value Name="ADSL_TONE" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="DIRECT_BRIDGE_MODE" Value="1"/>
+  <Value Name="ADSL_HIGH_INP" Value="0"/>
+  <Value Name="CWMP_PROVISIONINGCODE" Value=""/>
+  <Value Name="CWMP_ACS_URL" Value="http://"/>
+  <Value Name="CWMP_ACS_URL_OLD" Value="http://"/>
+  <Value Name="CWMP_ACS_USERNAME" Value="username"/>
+  <Value Name="CWMP_ACS_PASSWORD" Value="password"/>
+  <Value Name="CWMP_INFORM_ENABLE" Value="1"/>
+  <Value Name="CWMP_INFORM_INTERVAL" Value="300"/>
+  <Value Name="CWMP_INFORM_TIME" Value="0"/>
+  <Value Name="CWMP_CONREQ_USERNAME" Value=""/>
+  <Value Name="CWMP_CONREQ_PASSWORD" Value=""/>
+  <Value Name="CWMP_ACS_UPGRADESMANAGED" Value="1"/>
+  <Value Name="CWMP_LAN_CONFIGPASSWD" Value=""/>
+  <Value Name="CWMP_SERIALNUMBER" Value="00000001"/>
+  <Value Name="CWMP_DHCP_SERVERCONF" Value="1"/>
+  <Value Name="CWMP_LAN_IPIFENABLE" Value="1"/>
+  <Value Name="CWMP_LAN_ETHIFENABLE" Value="1"/>
+  <Value Name="CWMP_WLAN_BASICENCRY" Value="0"/>
+  <Value Name="CWMP_DL_COMMANDKEY" Value=""/>
+  <Value Name="CWMP_DL_QUEUE_IDX" Value="-1"/>
+  <Value Name="CWMP_DL_STARTTIME" Value="0"/>
+  <Value Name="CWMP_DL_COMPLETETIME" Value="0"/>
+  <Value Name="CWMP_DL_FAULTCODE" Value="0"/>
+  <Value Name="CWMP_INFORM_EVENTCODE" Value="1"/>
+  <Value Name="CWMP_RB_COMMANDKEY" Value=""/>
+  <Value Name="CWMP_ACS_PARAMETERKEY" Value=""/>
+  <Value Name="CWMP_CERT_PASSWORD" Value="client"/>
+  <Value Name="CWMP_FLAG" Value="48"/>
+  <Value Name="CWMP_FLAG2" Value="0"/>
+  <Value Name="CWMP_PARAMETERKEY" Value=""/>
+  <Value Name="CWMP_SI_COMMANDKEY" Value=""/>
+  <Value Name="CWMP_ACS_KICKURL" Value=""/>
+  <Value Name="CWMP_ACS_DOWNLOADURL" Value=""/>
+  <Value Name="CWMP_CONREQ_PORT" Value="7547"/>
+  <Value Name="CWMP_CONREQ_PATH" Value="/tr069"/>
+  <Value Name="TR143_UDPECHO_ENABLE" Value="0"/>
+  <Value Name="TR143_UDPECHO_ITFTYPE" Value="0"/>
+  <Value Name="TR143_UDPECHO_SRCIP" Value="0.0.0.0"/>
+  <Value Name="TR143_UDPECHO_PORT" Value="0"/>
+  <Value Name="TR143_UDPECHO_PLUS" Value="0"/>
+  <Value Name="CWMP_PERSISTENT_DATA" Value=""/>
+  <Value Name="CWMP_WAN_INTERFACE" Value="65535"/>
+  <Value Name="CWMP_DELAY_RESTARTWAN_ENABLE" Value="1"/>
+  <Value Name="CWMP_DELAY_RESTARTWAN_CHECK_TIME" Value="15"/>
+  <Value Name="SYSLOG" Value="0"/>
+  <Value Name="MAXLOGLEN" Value="16384"/>
+  <Value Name="ADSLDBG" Value="0"/>
+  <Value Name="MIB_ETH_MAC_CTRL" Value="0"/>
+  <Value Name="MIB_WLAN_MAC_CTRL" Value="0"/>
+  <Value Name="LAN_DHCP_GATEWAY" Value="192.168.100.1"/>
+  <Value Name="DHCP_SUBNET_MASK" Value="255.255.255.0"/>
+  <Value Name="CAPTIVEPORTAL_ENABLE" Value="0"/>
+  <Value Name="CAPTIVEPORTAL_URL" Value=""/>
+  <Value Name="V6_MAXRTRADVINTERVAL" Value="600"/>
+  <Value Name="V6_MINRTRADVINTERVAL" Value="198"/>
+  <Value Name="V6_ADVCURHOPLIMIT" Value="64"/>
+  <Value Name="V6_ADVDEFAULTLIFETIME" Value="1800"/>
+  <Value Name="V6_ADVREACHABLETIME" Value="0"/>
+  <Value Name="V6_ADVRETRANSTIMER" Value="0"/>
+  <Value Name="V6_ADVLINKMTU" Value="1492"/>
+  <Value Name="V6_PREFIX_IP" Value="3ffe:501:ffff:100::"/>
+  <Value Name="V6_PREFIX_LEN" Value="64"/>
+  <Value Name="V6_VALIDLIFETIME" Value="2592000"/>
+  <Value Name="V6_PREFERREDLIFETIME" Value="604800"/>
+  <Value Name="V6_SENDADVERT" Value="1"/>
+  <Value Name="V6_MANAGEDFLAG" Value="0"/>
+  <Value Name="V6_OTHERCONFIGFLAG" Value="1"/>
+  <Value Name="V6_ONLINK" Value="1"/>
+  <Value Name="V6_AUTONOMOUS" Value="1"/>
+  <Value Name="V6_PREFIX_MODE" Value="0"/>
+  <Value Name="V6_PREFIX_ENABLE" Value="1"/>
+  <Value Name="V6_RDNSS1" Value=""/>
+  <Value Name="V6_RDNSS2" Value=""/>
+  <Value Name="V6_ULAPrefixEnable" Value="0"/>
+  <Value Name="V6_ULAPREFIX" Value="fc01::"/>
+  <Value Name="V6_ULAPREFIX_LEN" Value="64"/>
+  <Value Name="V6_ULAPREFIX_VALID_TIME" Value="2592000"/>
+  <Value Name="V6_ULAPREFIX_PREFER_TIME" Value="604800"/>
+  <Value Name="DHCPV6S_PREFIX_LENGTH" Value="64"/>
+  <Value Name="DHCPV6S_RANGE_START" Value="3ffe:501:ffff:100::10"/>
+  <Value Name="DHCPV6S_RANGE_END" Value="3ffe:501:ffff:100::11"/>
+  <Value Name="DHCPV6S_DEFAULT_LEASE" Value="20000"/>
+  <Value Name="DHCPV6S_PREFERRED_LIFETIME" Value="10000"/>
+  <Value Name="DHCPV6R_UPPER_IFINDEX" Value="255"/>
+  <Value Name="DHCPV6_MODE" Value="3"/>
+  <Value Name="DHCPV6S_RENEW_TIME" Value="5000"/>
+  <Value Name="DHCPV6S_REBIND_TIME" Value="16000"/>
+  <Value Name="DHCPV6S_CLIENT_DUID" Value="00:01:00:01:00:04:93:e0:00:00:00:00:a2:a2"/>
+  <Value Name="DNSV6_MODE" Value="0"/>
+  <Value Name="DNSV61" Value=""/>
+  <Value Name="DNSV62" Value=""/>
+  <Value Name="DNSV63" Value=""/>
+  <Value Name="V6_IPF_OUT_ACTION" Value="1"/>
+  <Value Name="V6_IPF_IN_ACTION" Value="0"/>
+  <Value Name="V6_IPV6_ENABLE" Value="1"/>
+  <Value Name="MAC_BASED_TAG_DECISION" Value="1"/>
+  <Value Name="MAC_DMAC2CVID_DISABLE" Value="1"/>
+  <Value Name="LAN_VLAN_ID1" Value="9"/>
+  <Value Name="LAN_VLAN_ID2" Value="9"/>
+  <Value Name="LAN_PORT_MASK1" Value="3"/>
+  <Value Name="LAN_PORT_MASK2" Value="3"/>
+  <Value Name="LAN_IP_VERSION1" Value="2"/>
+  <Value Name="LAN_IP_VERSION2" Value="2"/>
+  <Value Name="UNTAG_WAN_VLAN_ID" Value="8"/>
+  <Value Name="FWD_CPU_VLAN_ID" Value="1"/>
+  <Value Name="FWD_PROTO_BLOCK_VLAN_ID" Value="4000"/>
+  <Value Name="FWD_BIND_INTERNET_VLAN_ID" Value="4005"/>
+  <Value Name="FWD_BIND_OTHER_VLAN_ID" Value="4012"/>
+  <Value Name="FWD_CPU_SVLAN_ID" Value="2"/>
+  <Value Name="LAN_IPV6_MODE1" Value="0"/>
+  <Value Name="LAN_IPV6_MODE2" Value="1"/>
+  <Value Name="LAN_IPV6_ADDR1" Value=""/>
+  <Value Name="LAN_IPV6_ADDR2" Value=""/>
+  <Value Name="LAN_IPV6_PREFIX_LEN1" Value="0"/>
+  <Value Name="LAN_IPV6_PREFIX_LEN2" Value="0"/>
+  <Value Name="LOID" Value="user"/>
+  <Value Name="LOID_PASSWD" Value=""/>
+  <Value Name="LOID_OLD" Value="user"/>
+  <Value Name="LOID_PASSWD_OLD" Value=""/>
+  <Value Name="PROVINCE_TRAP_PPPOE_TRAFFIC" Value="0"/>
+  <Value Name="GPON_PLOAM_PASSWD" Value="1234567890"/>
+  <Value Name="OMCI_DBGLVL" Value="0"/>
+  <Value Name="OMCI_LOGFILE" Value="0"/>
+  <Value Name="OMCI_PORT_TYPE" Value="1"/>
+  <Value Name="DUAL_MGMT_MODE" Value="1"/>
+  <Value Name="OMCI_CUSTOM_BDP" Value="136"/>
+  <Value Name="OMCI_CUSTOM_RDP" Value="0"/>
+  <Value Name="OMCI_CUSTOM_MCAST" Value="0"/>
+  <Value Name="OMCI_CUSTOM_ME" Value="0"/>
+  <Value Name="OMCI_VENDOR_PRODUCT_CODE" Value="0"/>
+  <Value Name="OMCI_FAKE_OK" Value="0"/>
+  <Value Name="OMCI_VEIP_SLOT_ID" Value="255"/>
+  <Value Name="OMCI_WAN_QOS_QUEUE_NUM" Value="1"/>
+  <Value Name="VLAN_CFG_TYPE" Value="0"/>
+  <Value Name="VLAN_MANU_MODE" Value="0"/>
+  <Value Name="VLAN_MANU_TAG_VID" Value="65535"/>
+  <Value Name="VLAN_MANU_TAG_PRI" Value="255"/>
+  <Value Name="OMCI_OLT_MODE" Value="1"/>
+  <Value Name="OMCI_SW_VER1" Value="V1.7.1"/>
+  <Value Name="OMCI_SW_VER2" Value="V1.7.1"/>
+  <Value Name="OMCC_VER" Value="134"/>
+  <Value Name="OMCI_TM_OPT" Value="2"/>
+  <Value Name="OMCI_LOGFILE_MASK" Value="0"/>
+  <Value Name="TELNET_USER" Value="supertelnet"/>
+  <Value Name="TELNET_PASSWD" Value="supertelnet"/>
+  <Value Name="CATV_ENABLED" Value="1"/>
+  <Value Name="DHCP_PORT_FILTER" Value="0"/>
+  <Value Name="NTP_EXT_ITF" Value="65535"/>
+  <Value Name="FIBER_MODE" Value="0"/>
+  <Value Name="LBD_ENABLE" Value="1"/>
+  <Value Name="LBD_EXIST_PERIOD" Value="5"/>
+  <Value Name="LBD_CANCEL_PERIOD" Value="300"/>
+  <Value Name="LBD_ETHER_TYPE" Value="65530"/>
+  <Value Name="IPV6_LAN_IP_ADDR" Value="66,65,38,30,3a,3a,31,00,00,00,00,01,7f,c1,8a,64,00,00,02,dd,00,00,00,00,00,00,00,00,00,00,00,04,00,00,01,3b,00,00,02,dd"/>
+  <Value Name="RTK_DEVID_MANUFACTURER" Value=""/>
+  <Value Name="RTK_DEVID_OUI" Value=""/>
+  <Value Name="RTK_DEVID_PRODUCTCLASS" Value=""/>
+  <Value Name="RTK_DEVINFO_SPECVER" Value=""/>
+  <Value Name="RTK_DEVINFO_SWVER" Value=""/>
+  <Value Name="RTK_DEVINFO_HWVER" Value=""/>
+  <Value Name="DEVICE_NAME" Value="RTK_GW"/>
+ </Dir>
+ <Dir Name="ATM_VC_TBL"> <!--index=0-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Index" Value="0"/>
+  <Value Name="VPI" Value="0"/>
+  <Value Name="QoS" Value="0"/>
+  <Value Name="VCI" Value="0"/>
+  <Value Name="PCR" Value="0"/>
+  <Value Name="SCR" Value="0"/>
+  <Value Name="MBS" Value="0"/>
+  <Value Name="CDVT" Value="0"/>
+  <Value Name="Encap" Value="0"/>
+  <Value Name="NAPT" Value="1"/>
+  <Value Name="ChannelMode" Value="1"/>
+  <Value Name="BridgeType" Value="2"/>
+  <Value Name="pppUser" Value=""/>
+  <Value Name="pppPasswd" Value=""/>
+  <Value Name="pppAuth" Value="0"/>
+  <Value Name="pppACName" Value=""/>
+  <Value Name="pppServiceName" Value=""/>
+  <Value Name="pppConnectType" Value="0"/>
+  <Value Name="pppIdleTime" Value="0"/>
+  <Value Name="enableIGMP" Value="1"/>
+  <Value Name="ChannelAddrType" Value="1"/>
+  <Value Name="RIP" Value="0"/>
+  <Value Name="LocalIPAddr" Value="0.0.0.0"/>
+  <Value Name="RemoteIPAddr" Value="0.0.0.0"/>
+  <Value Name="DefaultGW" Value="1"/>
+  <Value Name="MTU" Value="1500"/>
+  <Value Name="ChannelStatus" Value="1"/>
+  <Value Name="SubnetMask" Value="0.0.0.0"/>
+  <Value Name="Ipunnum" Value="0"/>
+  <Value Name="DNSMode" Value="1"/>
+  <Value Name="DNSV4IPAddr1" Value="0.0.0.0"/>
+  <Value Name="DNSV4IPAddr2" Value="0.0.0.0"/>
+  <Value Name="vlan" Value="1"/>
+  <Value Name="vid" Value="100"/>
+  <Value Name="vprio" Value="1"/>
+  <Value Name="vpass" Value="0"/>
+  <Value Name="itfGroup" Value="1"/>
+  <Value Name="itfGroupNum" Value="0"/>
+  <Value Name="mVid" Value="0"/>
+  <Value Name="cpePppIfIndex" Value="0"/>
+  <Value Name="cpeIpIndex" Value="0"/>
+  <Value Name="connDisable" Value="0"/>
+  <Value Name="ConDevInstNum" Value="1"/>
+  <Value Name="ConIPInstNum" Value="1"/>
+  <Value Name="ConPPPInstNum" Value="0"/>
+  <Value Name="autoDisTime" Value="0"/>
+  <Value Name="warnDisDelay" Value="0"/>
+  <Value Name="TR143UDPEchoItf" Value="0"/>
+  <Value Name="WanName" Value=""/>
+  <Value Name="applicationtype" Value="2"/>
+  <Value Name="IpProtocol" Value="1"/>
+  <Value Name="AddrMode" Value="0"/>
+  <Value Name="Ipv6Addr" Value=""/>
+  <Value Name="RemoteIpv6Addr" Value=""/>
+  <Value Name="Ipv6AddrPrefixLen" Value="0"/>
+  <Value Name="Ipv6Dhcp" Value="0"/>
+  <Value Name="Ipv6DhcpRequest" Value="0"/>
+  <Value Name="RemoteIpv6EndPointAddr" Value=""/>
+  <Value Name="Ipv6Dns1" Value=""/>
+  <Value Name="Ipv6Dns2" Value=""/>
+  <Value Name="MacAddr" Value="60d2dd443770"/>
+  <Value Name="RGWANIndex" Value="1"/>
+  <Value Name="omci_configured" Value="0"/>
+  <Value Name="omci_if_id" Value="0"/>
+ </Dir>
+ <Dir Name="IP_PORT_FILTER_TBL">
+ </Dir>
+ <Dir Name="MAC_FILTER_TBL">
+ </Dir>
+ <Dir Name="PORT_FW_TBL">
+ </Dir>
+ <Dir Name="IP_ROUTE_TBL">
+ </Dir>
+ <Dir Name="ACL_IP_TBL">
+ </Dir>
+ <Dir Name="DHCP_SERVER_OPTION_TBL">
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=0-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="1"/>
+  <Value Name="Tag" Value="53"/>
+  <Value Name="Len" Value="1"/>
+  <Value Name="Value" Value="01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="3"/>
+  <Value Name="DhcpOptInstNum" Value="1"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=1-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="1"/>
+  <Value Name="Tag" Value="61"/>
+  <Value Name="Len" Value="7"/>
+  <Value Name="Value" Value="01,60,d2,dd,44,37,70,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="3"/>
+  <Value Name="DhcpOptInstNum" Value="2"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=2-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="1"/>
+  <Value Name="Tag" Value="60"/>
+  <Value Name="Len" Value="13"/>
+  <Value Name="Value" Value="64,73,6c,66,6f,72,75,6d,2e,6f,72,67,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="3"/>
+  <Value Name="DhcpOptInstNum" Value="3"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=3-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="1"/>
+  <Value Name="Tag" Value="50"/>
+  <Value Name="Len" Value="0"/>
+  <Value Name="Value" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="3"/>
+  <Value Name="DhcpOptInstNum" Value="4"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=4-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="1"/>
+  <Value Name="Tag" Value="54"/>
+  <Value Name="Len" Value="0"/>
+  <Value Name="Value" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="3"/>
+  <Value Name="DhcpOptInstNum" Value="5"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=5-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="1"/>
+  <Value Name="Tag" Value="1"/>
+  <Value Name="Len" Value="0"/>
+  <Value Name="Value" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="4"/>
+  <Value Name="DhcpOptInstNum" Value="1"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=6-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="2"/>
+  <Value Name="Tag" Value="3"/>
+  <Value Name="Len" Value="0"/>
+  <Value Name="Value" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="4"/>
+  <Value Name="DhcpOptInstNum" Value="2"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=7-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="3"/>
+  <Value Name="Tag" Value="6"/>
+  <Value Name="Len" Value="0"/>
+  <Value Name="Value" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="4"/>
+  <Value Name="DhcpOptInstNum" Value="3"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=8-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="4"/>
+  <Value Name="Tag" Value="12"/>
+  <Value Name="Len" Value="0"/>
+  <Value Name="Value" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="4"/>
+  <Value Name="DhcpOptInstNum" Value="4"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=9-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="5"/>
+  <Value Name="Tag" Value="15"/>
+  <Value Name="Len" Value="0"/>
+  <Value Name="Value" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="4"/>
+  <Value Name="DhcpOptInstNum" Value="5"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=10-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="6"/>
+  <Value Name="Tag" Value="28"/>
+  <Value Name="Len" Value="0"/>
+  <Value Name="Value" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="4"/>
+  <Value Name="DhcpOptInstNum" Value="6"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=11-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="7"/>
+  <Value Name="Tag" Value="33"/>
+  <Value Name="Len" Value="0"/>
+  <Value Name="Value" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="4"/>
+  <Value Name="DhcpOptInstNum" Value="7"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=12-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="8"/>
+  <Value Name="Tag" Value="121"/>
+  <Value Name="Len" Value="0"/>
+  <Value Name="Value" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="4"/>
+  <Value Name="DhcpOptInstNum" Value="8"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=13-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="9"/>
+  <Value Name="Tag" Value="249"/>
+  <Value Name="Len" Value="0"/>
+  <Value Name="Value" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="4"/>
+  <Value Name="DhcpOptInstNum" Value="9"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=14-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="10"/>
+  <Value Name="Tag" Value="43"/>
+  <Value Name="Len" Value="0"/>
+  <Value Name="Value" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="4"/>
+  <Value Name="DhcpOptInstNum" Value="11"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=15-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="11"/>
+  <Value Name="Tag" Value="120"/>
+  <Value Name="Len" Value="0"/>
+  <Value Name="Value" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="4"/>
+  <Value Name="DhcpOptInstNum" Value="12"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=16-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="12"/>
+  <Value Name="Tag" Value="42"/>
+  <Value Name="Len" Value="0"/>
+  <Value Name="Value" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="4"/>
+  <Value Name="DhcpOptInstNum" Value="13"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=17-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="13"/>
+  <Value Name="Tag" Value="66"/>
+  <Value Name="Len" Value="0"/>
+  <Value Name="Value" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="4"/>
+  <Value Name="DhcpOptInstNum" Value="14"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=18-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="14"/>
+  <Value Name="Tag" Value="100"/>
+  <Value Name="Len" Value="0"/>
+  <Value Name="Value" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="4"/>
+  <Value Name="DhcpOptInstNum" Value="15"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=19-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="15"/>
+  <Value Name="Tag" Value="20"/>
+  <Value Name="Len" Value="0"/>
+  <Value Name="Value" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="4"/>
+  <Value Name="DhcpOptInstNum" Value="16"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_CLIENT_OPTION_TBL"> <!--index=20-->
+  <Value Name="ifIndex" Value="130816"/>
+  <Value Name="Enable" Value="1"/>
+  <Value Name="Order" Value="16"/>
+  <Value Name="Tag" Value="67"/>
+  <Value Name="Len" Value="0"/>
+  <Value Name="Value" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="UsedFor" Value="4"/>
+  <Value Name="DhcpOptInstNum" Value="17"/>
+  <Value Name="DhcpConSPInstNum" Value="0"/>
+ </Dir>
+ <Dir Name="SW_PORT_TBL"> <!--index=0-->
+  <Value Name="PVCInterface" Value="65535"/>
+  <Value Name="InterfaceGroup" Value="0"/>
+  <Value Name="PVID" Value="0"/>
+  <Value Name="LinkMode" Value="4"/>
+  <Value Name="VLAN on LAN Enabled" Value="0"/>
+  <Value Name="VLAN on LAN InterfaceGroup" Value="0"/>
+  <Value Name="VID" Value="0"/>
+ </Dir>
+ <Dir Name="SW_PORT_TBL"> <!--index=1-->
+  <Value Name="PVCInterface" Value="65535"/>
+  <Value Name="InterfaceGroup" Value="0"/>
+  <Value Name="PVID" Value="1"/>
+  <Value Name="LinkMode" Value="4"/>
+  <Value Name="VLAN on LAN Enabled" Value="0"/>
+  <Value Name="VLAN on LAN InterfaceGroup" Value="0"/>
+  <Value Name="VID" Value="0"/>
+ </Dir>
+ <Dir Name="MAC_BASE_DHCP_TBL">
+ </Dir>
+ <Dir Name="AUTO_PVC_SEARCH_TBL"> <!--index=0-->
+  <Value Name="VPI" Value="0"/>
+  <Value Name="VCI" Value="35"/>
+ </Dir>
+ <Dir Name="AUTO_PVC_SEARCH_TBL"> <!--index=1-->
+  <Value Name="VPI" Value="8"/>
+  <Value Name="VCI" Value="35"/>
+ </Dir>
+ <Dir Name="AUTO_PVC_SEARCH_TBL"> <!--index=2-->
+  <Value Name="VPI" Value="0"/>
+  <Value Name="VCI" Value="43"/>
+ </Dir>
+ <Dir Name="AUTO_PVC_SEARCH_TBL"> <!--index=3-->
+  <Value Name="VPI" Value="0"/>
+  <Value Name="VCI" Value="51"/>
+ </Dir>
+ <Dir Name="AUTO_PVC_SEARCH_TBL"> <!--index=4-->
+  <Value Name="VPI" Value="0"/>
+  <Value Name="VCI" Value="59"/>
+ </Dir>
+ <Dir Name="AUTO_PVC_SEARCH_TBL"> <!--index=5-->
+  <Value Name="VPI" Value="8"/>
+  <Value Name="VCI" Value="43"/>
+ </Dir>
+ <Dir Name="AUTO_PVC_SEARCH_TBL"> <!--index=6-->
+  <Value Name="VPI" Value="8"/>
+  <Value Name="VCI" Value="51"/>
+ </Dir>
+ <Dir Name="AUTO_PVC_SEARCH_TBL"> <!--index=7-->
+  <Value Name="VPI" Value="8"/>
+  <Value Name="VCI" Value="59"/>
+ </Dir>
+ <Dir Name="PPPOE_SESSION_TBL">
+ </Dir>
+ <Dir Name="RIP_TBL">
+ </Dir>
+ <Dir Name="DHCPS_SERVING_POOL_TBL">
+ </Dir>
+ <Dir Name="CAPTIVEPORTAL_ALLOWED_LIST">
+ </Dir>
+ <Dir Name="DHCP_RESERVED_IPADDR_TBL">
+ </Dir>
+ <Dir Name="DHCPV6S_NAME_SERVER_TBL">
+ </Dir>
+ <Dir Name="DHCPV6S_DOMAIN_SEARCH_TBL">
+ </Dir>
+ <Dir Name="V6_IP_PORT_FILTER_TBL">
+ </Dir>
+ <Dir Name="IPV6_ROUTE_TBL">
+ </Dir>
+ <Dir Name="EPON_LLID_TBL">
+ </Dir>
+ <Dir Name="CWMP_TRANSFER_QUEUE">
+ </Dir>
+ <Dir Name="LBD_VLAN_TBL"> <!--index=0-->
+  <Value Name="vid" Value="0"/>
+ </Dir>
+</Config>

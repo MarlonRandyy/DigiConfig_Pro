@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <admin>
+        <username>admin</username>
+        <password>digicable19</password>
+    </admin>
+    <network>
+        <ip>192.168.100.1</ip>
+        <mask>255.255.255.0</mask>
+        <gateway>192.168.100.1</gateway>
+    </network>
+</config>

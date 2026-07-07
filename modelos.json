@@ -10,13 +10,15 @@
         "clave_fabrica": "admin",
         "usuario_final": "admin",
         "clave_final": "digicable19",
-        "mac_prefijos": [
-            "60:D2:DD",
-            "60D2DD"
-        ],
-        "ruta_upload": "/boaform/admin/formSaveConfig",
-        "ruta_reset": "/boaform/admin/formRestoreConfig",
-        "notas": "XPON — funciona en GPON y EPON"
+        "mac_prefijos": ["60:D2:DD", "60D2DD"],
+        "campo_upload": "binary",
+        "ruta_upload": "/boaform/formSaveConfig",
+        "campos_extra_upload": {"submit-url": "/saveconf.asp"},
+        "tiempo_reinicio": 60,
+        "ruta_reset": "/boaform/formSaveConfig",
+        "notas": "XPON — funciona en GPON y EPON",
+        "reset_despues_upload": true,
+        "data_reset_extra": {"action": "reset", "confirm": "1"}   
     },
     "VSOL-V2802": {
         "nombre_display": "VSOL V2802",
@@ -70,5 +72,20 @@
         "notas": "",
         "imagen": "configs/imagenes/fh-hg6143d.png",
         "firmware_xml": "configs/firmwares/fh-hg6143d.xml"
+    },
+    "ADC-2001": {
+        "nombre_display": "ADC-2001 EPON",
+        "ip_fabrica": "192.168.1.1",
+        "ip_configurada": "192.168.100.1",
+        "usuario_fabrica": "admin",
+        "clave_fabrica": "admin",
+        "usuario_final": "admin",
+        "clave_final": "digicable19",
+        "campo_upload": "binary",
+        "tiempo_reinicio": 60,
+        "fabricante": "ADC",
+        "imagen": "configs/imagenes/adc-2001.png",
+        "firmware_xml": "configs/firmwares/adc-2001.xml",
+        "ruta_upload": "/boaform/formSaveConfig"
     }
 }

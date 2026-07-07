@@ -1,0 +1,12 @@
+# 1. Preparar los cambios
+git add .
+
+# 2. Ponerle un nombre a la mejora
+git commit -m "Agregado modelo FiberHome v3"
+
+# 3. Subir a la nube
+git push
+
+
+pip install opencv-python pyzbar customtkinter --upgrade
+peuge Esto

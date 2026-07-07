@@ -1,0 +1,17 @@
+{
+    "BT-PON BT-191XR": {
+        "nombre_display": "BT-PON BT-191XR",
+        "ip_fabrica": "192.168.1.1",
+        "ip_configurada": "192.168.100.1",
+        "usuario_fabrica": "admin",
+        "clave_fabrica": "admin",
+        "usuario_final": "admin",
+        "clave_final": "digicable19",
+        "campo_upload": "binary",
+        "data_extra": {},
+        "tiempo_reinicio": 60,
+        "fabricante": "BT-PON",
+        "imagen": "configs/imagenes/bt-pon bt-191xr.jpeg",
+        "firmware_xml": "configs/firmwares/bt-pon bt-191xr.xml"
+    }
+}
